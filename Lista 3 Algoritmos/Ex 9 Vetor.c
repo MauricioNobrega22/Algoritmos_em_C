@@ -8,7 +8,7 @@ int main (){
 	srand(time(NULL));
 	
 	for(i=0;i<12;i++){
-		vet[i]=rand()%41-20;  // Valores entre -20 até 20
+		vet[i]=rand()%41-20;  
 	}
 	
 	

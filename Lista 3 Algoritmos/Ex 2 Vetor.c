@@ -3,7 +3,7 @@ int main(){
 	int tamanho = 15, i, maior=0, menor=0;
 	int vetor[tamanho];
 	
-	printf("Digite 10 numeros inteiros:\n");
+	printf("Digite 15 numeros inteiros:\n");
     for(i = 0; i < tamanho; i++){
         scanf("%d", &vetor[i]);
         if(i==0)

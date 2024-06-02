@@ -7,17 +7,17 @@ int main() {
 
     srand(time(NULL));
 	
-	printf("Vet:\n");	// Visualização Vet
+	printf("Vet:\n");	
 	
     for (i = 0; i < 30; i++) {
         vet[i] = rand() % 16;
         printf("[%d] ", vet[i]);
     }
 
-    int freq[16] = {0}; // Inicializa um vetor para contar a frequência de cada número de 0 a 15
+    int freq[16] = {0}; 
 
     for (i = 0; i < 30; i++) {
-        freq[vet[i]]++; // Incrementa a contagem para o número atual do vetor
+        freq[vet[i]]++; 
     }
 
     for (i = 0; i < 16; i++) {
@@ -28,7 +28,7 @@ int main() {
     }
 	
 	printf("\n\nFreq: \n");
-							// Visualização Freq
+							
 	for (i = 0; i < 16; i++){
 		printf("[%d] ", freq[i]);
 	}

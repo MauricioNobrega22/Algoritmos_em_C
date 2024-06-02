@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main(){
-	int soma = 0; 
-	int i;
+	float soma=0.0; 
 	float media;
-	int vetor[20];
+	float vetor[20];
+	int i;
 	
 	for(i=0; i<20; i++){
-        vetor[i] = i * i;
+		scanf("%f", &vetor[i]);
     }
 	
 	for(i=0; i<20; i++){
